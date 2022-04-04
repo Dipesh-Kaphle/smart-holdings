@@ -1,0 +1,64 @@
+.logobar {
+    margin-top: 20px;
+
+    .bg-light {
+        background-color: #ffff !important;
+    }
+
+    .mylogo {
+        max-width: 240px;
+        padding: 15px;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+        margin-left: -30px;
+        padding: 20px 55px !important;
+
+        .nav-link {
+            font-weight: bold;
+            font-size: 16px;
+
+            &:hover {
+                color: $p !important;
+            }
+        }
+    }
+
+    .buttonwrapper {
+        display: flex;
+        float: right;
+        padding-right: 50px;
+
+        .big_button {
+            padding: 5px 21px;
+            border-radius: 12px;
+            border: none;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+
+            &:hover {
+                color: $p;
+                background-color: $s;
+                animation: scaleanimation infinite 1s ease;
+                animation-delay: 0.5s;
+            }
+        }
+
+        .bg_p {
+            background-color: $p;
+            color: white;
+            font-weight: 600;
+        }
+
+        .plusicon {
+            display: flex;
+            align-items: center;
+            font-weight: bolder;
+            font-size: 25px;
+            padding: 10px;
+        }
+    }
+}
